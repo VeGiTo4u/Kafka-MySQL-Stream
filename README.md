@@ -53,7 +53,8 @@ Workflow Steps
 
 # **📂 Repository Structure**
 
-• kafka-to-mysql-stream/
+```
+kafka-to-mysql-stream/
 	│
 	├── producer/             # Producer code (MySQL → Kafka)
 	│
@@ -72,6 +73,7 @@ Workflow Steps
 	├── README.md             # Project overview and instructions
 	├── LICENSE               # License information
 	└── .gitignore            # Git ignore file
+```
 
 # **Key Learning Outcomes**
 	•	Setting up a Kafka producer connected to MySQL
