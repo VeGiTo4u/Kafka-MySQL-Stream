@@ -56,10 +56,16 @@ Workflow Steps
 
 ```
 kafka-mysql-stream/
+├── Outputs/
+|	├── consumer1.json        
+│   └── consumer2.json
+|	└── consumer3.json   
+│   └── consumer4.json     
+│   └── consumer5.json
 |
 ├── Producer-Cosumer/
-|       ├── consumer.py        
-│   	└── producer.py
+|   ├── consumer.py        
+│   └── producer.py
 
 ├── Avro Schema
 ├── README.md               # Project documentation
