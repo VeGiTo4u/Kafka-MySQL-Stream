@@ -1,6 +1,0 @@
-	1.	Install Python dependencies using pip3 (mysql-connector-python and confluent-kafka).
-	2.	Install and start MySQL, then connect it to Python to test the connection.
-	3.	Create the product table in assignment_db with columns id, name, category, price, and last_updated, and insert some dummy data.
-	4.	Create a Kafka cluster and a topic with 10 partitions, then create an Avro schema in the schema registry for the product table and download the API keys for both Kafka and the schema registry.
-	5.	Write the producer and consumer code, connecting them to MySQL via config.json.
-	6.	Open six terminal instances, run the producer in one, the five consumers in the others, and verify that all consumers are receiving messages and saving them in their respective JSON files.
