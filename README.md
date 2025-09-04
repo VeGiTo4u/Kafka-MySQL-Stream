@@ -55,25 +55,16 @@ Workflow Steps
 # **📂 Repository Structure**
 
 ```
-kafka-to-mysql-stream/
-	│
-	├── producer/             # Producer code (MySQL → Kafka)
-	│
-	├── consumers/            # Consumer code (Kafka → JSON)
-	│
-	├── config/               # Config files for Kafka and MySQL
-	│
-	├── sample_data/          # Example MySQL datasets
-	│
-	├── output/               # JSON outputs from consumers
-	│
-	├── docs/                 # Documentation & architecture diagrams
-	│   ├── kafka_mysql_architecture.png
-	│   └── design_notes.md
-	│
-	├── README.md             # Project overview and instructions
-	├── LICENSE               # License information
-	└── .gitignore            # Git ignore file
+kafka-mysql-stream/
+|
+├── Producer-Cosumer/
+|       ├── consumer.py        
+│   	└── producer.py
+
+├── Avro Schema
+├── README.md               # Project documentation
+├── LICENSE                 # License information
+├── System Guide
 ```
 
 # **Key Learning Outcomes**
