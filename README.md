@@ -43,6 +43,7 @@ This project demonstrates a real-time streaming pipeline from MySQL → Kafka �
 **Objective - Build a real-time pipeline that streams MySQL data to Kafka and outputs JSON files through multiple consumers with incremental loading.**
 
 Workflow Steps
+
 	1.	Load Data into MySQL – Insert records into MySQL database tables.
 	2.	Producer – Reads new records (greater than last timestamp) and publishes them into a Kafka topic.
 	3.	Kafka Broker – Distributes data to consumers.
